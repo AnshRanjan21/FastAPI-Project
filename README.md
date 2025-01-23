@@ -1,8 +1,8 @@
-CRUD Backend API using FastAPI
+###CRUD Backend API using FastAPI
 
 This repository contains a fully functional backend API built using FastAPI. The API performs CRUD (Create, Read, Update, Delete) operations for users and posts and implements authentication mechanisms using JSON Web Tokens (JWT). The project is designed as a generalized template and can be modified to suit various application needs.
 
-Features
+####Features
 
 CRUD Operations: Create, retrieve, update, and delete users and posts.
 
@@ -12,7 +12,7 @@ Database Integration: PostgreSQL is used as the database, with the psycopg2 driv
 
 Modular Design: The application is organized into separate files and directories for scalability and readability.
 
-Project Structure
+####Project Structure
 
 app/
 ├── config.py      # Configuration file for database and other settings

@@ -15,3 +15,4 @@ This repository contains a fully functional backend API built using **FastAPI**.
 ## Project Structure
 The project structure is as follows:
 
+app/ ├── config.py # Configuration file for database and other settings ├── database.py # Database connection setup ├── main.py # Entry point for the application ├── model.py # Pydantic models ├── oauth2.py # JWT authentication logic ├── schema.py # Database schemas ├── utils.py # Utility functions (e.g., password hashing) ├── routers/ # Directory containing route handlers │ ├── auth.py # Routes for authentication (login) │ ├── post.py # Routes for CRUD operations on posts │ ├── user.py # Routes for CRUD operations on users │ ├── vote.py # Routes for handling votes on posts
